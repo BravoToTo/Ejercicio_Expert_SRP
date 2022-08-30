@@ -12,6 +12,8 @@ namespace SRP
             book1.ShelveBook("A", "7");
             book2.ShelveBook("B", "3");
 
+            Console.WriteLine(book1.Shelve);
+
         }
     }
 }
